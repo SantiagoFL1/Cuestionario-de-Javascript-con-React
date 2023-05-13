@@ -1,0 +1,76 @@
+body {
+  background: rgb(117, 1, 1);
+}
+
+header {
+  background: radial-gradient(red , black);
+  border: 2px white solid;
+  border-radius: 1em;
+  box-shadow: 2m 2em 2em orange;
+  color: white;
+  height: 5em;
+  padding: 2em;
+  margin-bottom: 3em;
+  box-shadow: 0 1em 1em black;
+
+}
+
+.IniciarTest {
+  background: linear-gradient(180deg, rgb(9, 116, 18) , rgb(0, 37, 3));
+  padding: 1em;
+  color: white;
+  box-shadow: 0 1em 1em black;
+}
+.IniciarTest .link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: red;
+  padding: 10px;
+}
+.ComponentePregunta {
+  background: linear-gradient(blue , black);
+  color: white;
+  border: 1px white solid;
+  padding: .5em;
+  box-shadow: 0 1em 1em blue;
+}
+.ComponentePregunta div {
+  margin-bottom: 1em;
+  font-size: 20px;
+  padding: .5em;
+  text-align: start;
+  
+}
+.ComponentePregunta div:first-child {
+  border-bottom: 1px gray solid;
+  
+}
+form {
+  
+}
+h4 {
+  text-align: start;
+}
+.ComponentePregunta button {
+  background-color: red;
+  border-radius: 10px;
+  padding: 1em;
+  border: none;
+  
+  cursor: pointer;
+}
+.barraProgreso {
+  height:1em;
+  background-color: gray;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+}
+
+.TestFinalizado {
+  background: linear-gradient(blue , black);
+  border-radius: 1em;
+  color: white;
+  padding: 1em;
+}
